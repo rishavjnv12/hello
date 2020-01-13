@@ -40,12 +40,9 @@ string fun(int n){
     return ans;
 }
 int main(){
-    int n=1;
-    while(n<100){
-        cout<<fun(n++)<<endl;
-        for(int i=0;i<6;i++)
-            cout<<endl;
-    }
+    int n;
+    cin>>n;
+    cout<<fun(n)<<endl;
     return 0;
 }
 
